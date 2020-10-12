@@ -52,7 +52,7 @@ for (i=0; i<lorem.length; i++) {
     }
     if (lorem [i]===" " && lorem[i+1]==="i" && lorem[i+2]==="n" && lorem[i+3]===" ") {
         counter1++;
-    } // used the word "See" at the end of the phrase.  
+    } // used the word "in".  
 }
 console.log (counter-1);
 console.log (counter1);
@@ -60,8 +60,8 @@ console.log (counter1);
 //Bonus2
 
 let phraseToCheck="Amor, Roma";
-let space2="";
-let space3="";
+let space2=""; // Sentence in reverse without spaces
+let space3=""; // Sentence without spaces
 for (i=phraseToCheck.length-1; i>=0; i--) {
     if (phraseToCheck[i]!=" ") {
     space2 += phraseToCheck[i].toLowerCase();
@@ -79,3 +79,4 @@ else {
     console.log ("Its not a palindrome!")
 }
 console.log (space2);
+console.lot (space3);
