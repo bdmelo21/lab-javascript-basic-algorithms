@@ -40,7 +40,7 @@ if (hacker1.localeCompare(hacker2)===1){
 
 //Bonus1
 
-let lorem = "Start by writing down one of your main ideas,in sentence form.Next,write down each of your supporting points for that main idea,but leave four or five lines in between each point.In the space under each point,write down some elaboration for that point."
+let lorem = "Start by writing down one of your main ideas, in sentence form. Next, write down each of your supporting points for that main idea, but leave four or five lines in between each point. In the space under each point, write down some elaboration for that point."
 let counter=0;
 let counter1=0;
 for (i=0; i<lorem.length; i++) {
