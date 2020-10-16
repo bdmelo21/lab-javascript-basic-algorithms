@@ -31,10 +31,10 @@ console.log (space1);
 
 if (hacker1.localeCompare(hacker2)===1){
     console.log ("The driver's name goes first.");}
-    else if (hacker1.localeCompare(hacker2)===-1) {
+    else if (hacker1.localeCompare(hacker2)<0) {
     console.log ("Yo, the navigator goes first definitely.");
     }
-    else {
+    else if (hacker1.localeCompare(hacker2)>0) {
     console.log ("What?! You both have the same name?"); 
     }
 
